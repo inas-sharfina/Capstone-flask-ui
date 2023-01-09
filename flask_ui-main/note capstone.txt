@@ -1,0 +1,14 @@
+goal: dashboard berisi
+1. top 5 categories di playstore
+2. most category ( + total number)
+3. 
+4.
+
+Plot yg price strategy tidak boleh sama persis dengan contoh. Bikin modifikasi berdasarkan business insight sendiri (jadi tidak harus price strategy, buat insight sendiri aja)
+
+fill in the blank: app.py & index.html
+
+pas copas code dari jupyter ke visual code, jangan sampe ngubah indent/tab
+
+playstore.Installs = playstore.Installs.apply(lambda x: x.replace(',',''))
+playstore.Installs = playstore.Installs.apply(lambda x: x.replace('+',''))
